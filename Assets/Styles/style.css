@@ -1,0 +1,16 @@
+@import url("header.css");
+@import url("principal.css");
+@import url("footer.css");
+
+:root{
+    --gradient-1: #C900FE;
+    --gradient-2:   #46006C;
+    --preto: #000000;
+    --branco: #ffffff
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
