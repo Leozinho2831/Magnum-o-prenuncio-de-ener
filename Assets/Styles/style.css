@@ -6,11 +6,18 @@
     --gradient-1: #C900FE;
     --gradient-2:   #46006C;
     --preto: #000000;
-    --branco: #ffffff
+    --branco: #ffffff;
+    --bg-body: #e5e5e5;
+    --autor: #4A4949;
+    --texto: #868686;
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-body);
 }
