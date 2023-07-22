@@ -40,20 +40,32 @@
     letter-spacing: 1px;
 }
 
+.dark .principal__aside h1{
+    color: var(--title-dark);
+}
+
 .principal__aside h1{
     font-size: 25px;
-    color: var(--preto);
+    color: var(--title-light);
+}
+
+.dark .principal__aside h2{
+    color: var(--vol-dark);
 }
 
 .principal__aside h2{
     font-size: 20px;
-    color: var(--autor);
+    color: var(--vol-light);
+}
+
+.dark .principal__aside p{
+    color: var(--texto-dark);
 }
 
 .principal__aside p{
     font-size: 17px;
     font-family: 'Judson', serif;
-    color: var(--texto);
+    color: var(--texto-light);
 }
 
 .principal__mapa{

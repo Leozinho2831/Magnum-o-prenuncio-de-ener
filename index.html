@@ -12,28 +12,29 @@
     <title>Magnum: Prenúncio de Ener</title>
 </head>
 <body>
-    <header class="header">
-        <figure class="header__logo">
-            <a href="index.html"><img src="Assets/Images/Logo magnum.jpg" alt="Logo"></a>
-        </figure>
-        <menu class="header__menu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </menu>
-        <nav class="header__nav">
-            <ul class="header__links">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                    <hr>
-                <li>
-                    <a href="">Personagens</a>
-                </li>
+    <header> 
+        <nav class="nav">
+            <figure class="header__logo">
+                <a href="index.html">
+                    <img src="Assets/Images/Logo magnum.jpg" alt="Logo">
+                </a>
+            </figure>
+            <menu class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </menu>
+            <ul class="nav-list">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+            <hr>
+                <a href="Assets/Pages/personagens.html">
+                    <li>Personagens</li>
+                </a>
             </ul>
-        </nav>
         <label for="button"></label>
-        <input type="checkbox" name="button" class="header__button">
+        <input type="checkbox" name="button" class="header__button" id="chk">
     </header>
     <main class="principal">
         <section class="principal__section">
@@ -80,5 +81,7 @@
             <i class="fa-brands fa-instagram"></i>
         </section>
     </footer>
+    <script src="Assets/Javascript/Menu.js"></script>
+    <script src="Assets/Javascript/script.js"></script>
 </body>
 </html>

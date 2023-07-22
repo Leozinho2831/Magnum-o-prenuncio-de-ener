@@ -1,5 +1,5 @@
 @import url("header.css");
-@import url("principal.css");
+@import url("personages.css");
 @import url("footer.css");
 
 :root{
@@ -11,17 +11,8 @@
 
     --gradient-1: #C900FE;
     --gradient-2: #46006C;
-
-    --title-light: #090909;
-    --title-dark: #f7f2f2;
-
-    --vol-light:  #4169E1;
-    --vol-dark: #ADD8E6;
-
-    --texto-light: #868686;
-    --texto-dark: #bbb9b9;
 }
-  
+
 *{
     padding: 0;
     margin: 0;
