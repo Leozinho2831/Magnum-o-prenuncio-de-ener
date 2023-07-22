@@ -12,13 +12,18 @@
     --gradient-1: #C900FE;
     --gradient-2: #46006C;
 
-    --title-light: #090909;
-    --title-dark: #f7f2f2;
+    --principal-title-gradient-1: #8A2BE2;
+    --principal-title-gradient-2: #0047AB;
+    --principal-title-gradient-1-dark: #9370DB;
+    --principal-title-gradient-2-dark: #87CEFA;
+
+    --title-light: #B657FF;
+    --title-dark: #9370DB;
 
     --vol-light:  #4169E1;
     --vol-dark: #ADD8E6;
 
-    --texto-light: #868686;
+    --texto-light: #7c7c7c;
     --texto-dark: #bbb9b9;
 }
   

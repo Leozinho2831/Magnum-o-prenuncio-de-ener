@@ -1,3 +1,28 @@
+.principal{
+    padding: 14vh 0 0 0;
+}
+
+.principal h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 0 30px 0;
+    background-image: linear-gradient(135deg, 
+        var(--principal-title-gradient-1),
+        var(--principal-title-gradient-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.dark .principal h1{
+    background-image: linear-gradient(135deg, 
+        var(--principal-title-gradient-1-dark),
+        var(--principal-title-gradient-2-dark));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 .principal__section{
     display: grid;
     align-items: center;
@@ -45,7 +70,7 @@
 }
 
 .principal__aside h1{
-    font-size: 25px;
+    font-size: 35px;
     color: var(--title-light);
 }
 
@@ -54,7 +79,7 @@
 }
 
 .principal__aside h2{
-    font-size: 20px;
+    font-size: 30px;
     color: var(--vol-light);
 }
 
@@ -63,7 +88,7 @@
 }
 
 .principal__aside p{
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Judson', serif;
     color: var(--texto-light);
 }
