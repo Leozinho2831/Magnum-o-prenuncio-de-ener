@@ -14,7 +14,7 @@
     color: transparent;
 }
 
-.dark .principal h1{
+.dark #principal-title h1{
     background-image: linear-gradient(135deg, 
         var(--principal-title-gradient-1-dark),
         var(--principal-title-gradient-2-dark));
@@ -47,6 +47,8 @@
     width: 170px;
     height: 300px;
     border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px 
+        rgba(0, 0, 0, 0.25);
 }
 
 .principal__aside{
@@ -100,21 +102,37 @@
 }
 
 .principal__mapa-img{
-    width: 400px;
-    height: 220px;
+    width: 80%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 40px 0 20px 0;
+    margin: 80px 0 80px 0;
+    padding: 0 40px 40px 40px;
 
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px 
+        rgba(0, 0, 0, 0.25);
     background-image: linear-gradient(160deg, 
         var(--gradient-1) 10%,
         var(--gradient-2) 90%);
 }
 
+.principal__mapa-img h1{
+    text-align: center;
+    color: var(--preto);
+    font-family: 'Judson', serif;
+    font-size: 35px;
+}
+
 .principal__mapa-img img{
-    width: 380px;
-    height: 200px;
+    width: 100%;
+    height: 550px;
+
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px 
+        rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (min-width:750px){
@@ -138,6 +156,17 @@
     .principal__aside p{
         font-size: 23px;
     }
+
+    .principal__mapa-img h1{
+        text-align: center;
+        color: var(--preto);
+        font-family: 'Judson', serif;
+        font-size: 45px;
+    }
+
+    .principal__mapa-img img{
+        height: 900px;
+    }
 }
 
 @media screen and (max-width:450px){
@@ -147,13 +176,7 @@
         flex-direction: column;
     }
 
-    .principal__mapa-img{
-        width: 300px;
-        height: 120px;
-    }
-
     .principal__mapa-img img{
-        width: 280px;
-        height: 100px;
+        height: 350px;
     }
 }
